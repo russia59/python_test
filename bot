@@ -1,0 +1,19 @@
+from time import sleep
+import pyautogui
+a = 1
+
+while a==1:
+    sleep(600)
+    l=1
+    while l<25:
+        l+=1
+        pyautogui.click(815,505)
+        sleep(5)
+        pyautogui.click(815,505)
+        sleep(5)
+        pyautogui.click(1072,461)
+        sleep(5)
+        pyautogui.click(1229,353)
+        sleep(5)
+        pyautogui.click(741,662)
+        sleep(10)
